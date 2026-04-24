@@ -1,0 +1,75 @@
+{
+    "status": "fully_supported",
+    "user_description": "face-centred cubic copper",
+    "material_metadata": {
+        "chemical_formula": "Cu",
+        "crystal_system": "cubic",
+        "space_group": "Fm-3m",
+        "structure_family": "3D_prototype",
+        "structure_label": "fcc",
+        "construction_method": "deterministic_builder",
+        "notes": "Fallback rule-based parser used."
+    },
+    "lattice_parameters": {
+        "a": 3.615,
+        "b": 3.615,
+        "c": 3.615,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+    },
+    "atomic_positions": [
+        {
+            "element": "Cu",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "element": "Cu",
+            "coordinate_type": "fractional",
+            "position": [
+                0.5,
+                0.5,
+                0.0
+            ]
+        },
+        {
+            "element": "Cu",
+            "coordinate_type": "fractional",
+            "position": [
+                0.5,
+                0.0,
+                0.5
+            ]
+        },
+        {
+            "element": "Cu",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.5,
+                0.5
+            ]
+        }
+    ],
+    "dft_computation_hints": {
+        "dimensionality": "bulk",
+        "vacuum_padding_z": 0.0,
+        "is_spin_polarized": false,
+        "magnetic_state": "unknown",
+        "exchange_correlation": "PBE",
+        "include_soc": false,
+        "hubbard_u_values": {},
+        "calculation_task": "geometry_optimization"
+    },
+    "validation": {
+        "confidence": 0.95,
+        "num_sites": 4,
+        "is_ordered": true,
+        "formula_from_structure": "Cu4"
+    }
+}

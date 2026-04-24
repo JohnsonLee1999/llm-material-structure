@@ -1,0 +1,111 @@
+{
+    "status": "fully_supported",
+    "user_description": "monolayer CrI3 with FM order",
+    "material_metadata": {
+        "chemical_formula": "CrI3",
+        "crystal_system": "trigonal",
+        "space_group": "P-31m",
+        "structure_family": "2D_canonical_material",
+        "structure_label": "monolayer_cri3",
+        "construction_method": "deterministic_builder",
+        "notes": "Monolayer CrI3 with ferromagnetic order specified."
+    },
+    "lattice_parameters": {
+        "a": 6.87,
+        "b": 6.87,
+        "c": 25.0,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+    },
+    "atomic_positions": [
+        {
+            "element": "Cr",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.5
+            ]
+        },
+        {
+            "element": "Cr",
+            "coordinate_type": "fractional",
+            "position": [
+                0.66666667,
+                0.33333333,
+                0.5
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.33333333,
+                0.66666667,
+                0.458
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.33333333,
+                0.66666667,
+                0.542
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.458
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.542
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.66666667,
+                0.33333333,
+                0.458
+            ]
+        },
+        {
+            "element": "I",
+            "coordinate_type": "fractional",
+            "position": [
+                0.66666667,
+                0.33333333,
+                0.542
+            ]
+        }
+    ],
+    "dft_computation_hints": {
+        "dimensionality": "2D",
+        "vacuum_padding_z": 18.0,
+        "is_spin_polarized": true,
+        "magnetic_state": "ferromagnetic",
+        "exchange_correlation": "PBE",
+        "include_soc": false,
+        "hubbard_u_values": {},
+        "calculation_task": "default"
+    },
+    "validation": {
+        "confidence": 1.0,
+        "num_sites": 8,
+        "is_ordered": true,
+        "formula_from_structure": "Cr2 I6"
+    }
+}

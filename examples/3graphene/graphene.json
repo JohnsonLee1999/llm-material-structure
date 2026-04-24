@@ -1,0 +1,57 @@
+{
+    "status": "fully_supported",
+    "user_description": "graphene",
+    "material_metadata": {
+        "chemical_formula": "C",
+        "crystal_system": "hexagonal",
+        "space_group": "P6/mmm",
+        "structure_family": "2D_canonical_material",
+        "structure_label": "graphene",
+        "construction_method": "deterministic_builder",
+        "notes": "Fallback rule-based parser used."
+    },
+    "lattice_parameters": {
+        "a": 2.46,
+        "b": 2.46,
+        "c": 21.35,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 120.0
+    },
+    "atomic_positions": [
+        {
+            "element": "C",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.5
+            ]
+        },
+        {
+            "element": "C",
+            "coordinate_type": "fractional",
+            "position": [
+                0.33333333,
+                0.66666667,
+                0.5
+            ]
+        }
+    ],
+    "dft_computation_hints": {
+        "dimensionality": "2D",
+        "vacuum_padding_z": 18.0,
+        "is_spin_polarized": false,
+        "magnetic_state": "unknown",
+        "exchange_correlation": "PBE",
+        "include_soc": false,
+        "hubbard_u_values": {},
+        "calculation_task": "geometry_optimization"
+    },
+    "validation": {
+        "confidence": 0.98,
+        "num_sites": 2,
+        "is_ordered": true,
+        "formula_from_structure": "C2"
+    }
+}

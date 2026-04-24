@@ -1,0 +1,84 @@
+{
+    "status": "fully_supported",
+    "user_description": "a perovskite oxide with titanium and barium",
+    "material_metadata": {
+        "chemical_formula": "BaTiO3",
+        "crystal_system": "cubic",
+        "space_group": "Pm-3m",
+        "structure_family": "3D_prototype",
+        "structure_label": "perovskite",
+        "construction_method": "deterministic_builder",
+        "notes": "Fallback rule-based parser used."
+    },
+    "lattice_parameters": {
+        "a": 4.01,
+        "b": 4.01,
+        "c": 4.01,
+        "alpha": 90.0,
+        "beta": 90.0,
+        "gamma": 90.0
+    },
+    "atomic_positions": [
+        {
+            "element": "Ba",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "element": "Ti",
+            "coordinate_type": "fractional",
+            "position": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "element": "O",
+            "coordinate_type": "fractional",
+            "position": [
+                0.5,
+                0.0,
+                0.5
+            ]
+        },
+        {
+            "element": "O",
+            "coordinate_type": "fractional",
+            "position": [
+                0.0,
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "element": "O",
+            "coordinate_type": "fractional",
+            "position": [
+                0.5,
+                0.5,
+                0.0
+            ]
+        }
+    ],
+    "dft_computation_hints": {
+        "dimensionality": "bulk",
+        "vacuum_padding_z": 0.0,
+        "is_spin_polarized": false,
+        "magnetic_state": "unknown",
+        "exchange_correlation": "PBE",
+        "include_soc": false,
+        "hubbard_u_values": {},
+        "calculation_task": "geometry_optimization"
+    },
+    "validation": {
+        "confidence": 0.85,
+        "num_sites": 5,
+        "is_ordered": true,
+        "formula_from_structure": "Ba1 Ti1 O3"
+    }
+}

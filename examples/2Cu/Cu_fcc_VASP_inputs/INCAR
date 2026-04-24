@@ -1,0 +1,9 @@
+SYSTEM = Cu_fcc
+PREC = Accurate
+ENCUT = 520
+IBRION = 2
+NSW = 100
+ISIF = 3
+EDIFF = 1E-5
+ISMEAR = 1
+SIGMA = 0.2

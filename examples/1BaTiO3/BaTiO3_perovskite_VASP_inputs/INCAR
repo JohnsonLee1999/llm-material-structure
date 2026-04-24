@@ -1,0 +1,10 @@
+SYSTEM = BaTiO3
+PREC = Accurate
+ENCUT = 520
+EDIFF = 1E-5
+IBRION = 2
+NSW = 100
+ISIF = 3
+ISMEAR = 0
+SIGMA = 0.05
+ALGO = Fast
