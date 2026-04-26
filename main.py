@@ -13,10 +13,7 @@ def main():
     print("DFT-ready structured data and input files.\n")
 
     # Step 1: Get user input
-    user_input = input(
-        "Please describe your material system\n"
-        "(e.g., 'wurtzite gallium nitride' or 'monolayer CrI3 with FM order'):\n> "
-    ).strip()
+    user_input = input("Please describe your material system\n").strip()
 
     if not user_input:
         user_input = "wurtzite gallium nitride"
